@@ -57,3 +57,9 @@ update tbUsuario set senha = '123456789' where codusu = 1;
 -- visualizando o registro da tabela 
 select * from tbFuncionario;
 select * from tbUsuario;
+
+-- excluindo o registro das tabelas
+delete from tbUsuario where codusu = 2;
+
+-- visualizando o registro da tabela 
+select * from tbUsuario;
